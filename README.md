@@ -22,12 +22,22 @@
 - JavaScript (basic DOM interaction for FAQ toggles)
 - Google Maps Embed API
 
+
 ---
 
 ## 📌 Notes
 
 - This is a static project intended for showcasing frontend skills.  
 - No backend logic or database integration is included.
+
+
+---
+
+## 👨‍💻 Author
+
+**Pranjal Mishra**  
+Student @ Northeastern University  
+[GitHub]([https://github.com/pranjalmishra](https://github.com/Pringlescantcode)) • [LinkedIn](www.linkedin.com/in/pranjal-mishra-2a880a289)
 
 ---
 
