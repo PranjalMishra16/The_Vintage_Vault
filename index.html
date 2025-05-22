@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> Home </title>
+<link rel = "stylesheet" href="stylesheet/main.css">
+<style>
+* {
+	box-sizing: border-box;
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 2px solid #000;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+input[type=submit] {
+	background-color: #000000;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	float: right;
+	cursor:pointer;
+	
+}
+
+input[type=submit]:hover {
+	background-color: #7D7878;
+}
+	
+input[type=reset]{
+	background-color: #000000;
+	color:white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	float:left;
+	
+}
+	
+input[type=reset]:hover{
+	background-color: #7D7878;
+}
+	
+</style>
+
+</head>
+	
+<body>
+
+	<header>
+	<h1> The Vintage Vault</h1>
+	</header>
+	
+	<nav>
+		
+
+		<ul>
+			<li><a href = "index.html"> Home </a></li>
+			<li><a href = "about.html"> About </a></li>
+			<li><a href= "current_listings.html"> Current Listings </a></li>
+			<li><a href= "contact.html"> Contact </a></li>
+			
+		</ul>
+	
+	</nav>
+	
+	<div class = "container">
+		
+	<div class="cont-1-wrapper">
+  		<video autoplay muted loop class="bg-video">
+    		<source src="media/background_vid.mp4" type="video/mp4">
+    		Your browser does not support this video.
+  		</video>
+	<div class = "cont-1">
+	<input type = "text" placeholder ="search cars" class = "search-bar">
+	</div>
+		
+	</div>
+		
+
+	<div class="cont-2">
+		<div class="section-header">
+			<h2>Featured Cars</h2>
+			<a href="current_listings.html" class="show-all">Show All</a>
+		</div>
+	<div class="card-grid">
+		<div class="card">
+			<img src="images/home/modernmuscle.jpg" alt="Modern Muscle">
+			<div class="card-body">
+				<h3>2024 Modern Muscle</h3>
+				<p class="price">$40,000</p>
+			</div>
+		</div>
+	<div class="card">
+		<img src="images/home/musclecar1.jpg" alt="Muscle Car 1">
+			<div class="card-body">
+				<h3>1990 Muscle Car 1</h3>
+				<p class="price">$158,900</p>
+			</div>
+	</div>
+	<div class="card">
+		<img src="images/home/musclecar2.jpg" alt="Muscle Car 2">
+			<div class="card-body">
+				<h3>1992 Muscle Car 2</h3>
+				<p class="price">$78,900</p>
+			</div>
+	</div>
+	<div class="card">
+		<img src="images/home/modernsports.jpg" alt="Sports Car">
+			<div class="card-body">
+				<h3>2002 Sports</h3>
+				<p class="price">$378,900</p>
+			</div>
+	</div>
+	<div class="card">
+		<img src="images/home/hypercar1.jpg" alt="Hyper Car">
+			<div class="card-body">
+			<h3>2002 Hyper</h3>
+			<p class="price">$578,900</p>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+				
+	<div class = "cont-4">
+	<form action="/action_page.php">
+	<h3> Inquire about a car today</h3>
+
+<div class="row">
+  
+  <div class="col-100">
+    <label for="fname">Name</label>
+    <div class="name-fields">
+      <input type="text" id="fname" name="firstname" placeholder="First">
+      <input type="text" id="lname" name="lastname" placeholder="Last">
+   
+	</div>
+
+	</div>
+	
+	</div>
+
+	
+	<div class="row">
+  
+	<div class="col-25">
+    <label for="email">E-mail</label>
+	</div>
+  
+	<div class="col-75">
+    <input type="text" id="email" name="email" placeholder="E-mail..">
+	</div>
+	
+	</div>
+
+	<div class="row">
+  
+	<div class="col-25">
+    <label for="model">Car Model</label>
+	</div>
+  
+	<div class="col-75">
+    <input type="text" id="model" name="model" placeholder="Car Model..">
+	</div>
+	
+	</div>
+
+	<div class="row">
+	
+	<div class="col-25">
+    <label for="phone">Phone</label>
+	</div>
+  
+	<div class="col-75">
+    <input type="number" id="phone" name="phone" placeholder="Number">
+	</div>
+
+	</div>
+
+	<br>
+	  
+<div class="row">
+	<input type="reset" value="Reset">
+	<input type="submit" value="Submit">
+	
+</div>
+	  
+</form>
+
+</div>
+	
+<script>
+window.addEventListener('load', () => { document.body.classList.add('loaded');
+									  });	
+
+</script>	
+	
+<footer>
+	&copy; 2025 Pranjal Mishra 
+</footer>
+	
+</body>
+
+</html>
