@@ -37,7 +37,7 @@
 
 **Pranjal Mishra**  
 Student @ Northeastern University  
-[GitHub]((https://github.com/PranjalMishra16)) • [LinkedIn](www.linkedin.com/in/pranjal-mishra-2a880a289)
+[GitHub](https://github.com/PranjalMishra16) • [LinkedIn](www.linkedin.com/in/pranjal-mishra-2a880a289)
 
 ---
 
